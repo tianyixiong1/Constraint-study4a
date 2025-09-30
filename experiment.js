@@ -642,7 +642,7 @@ const scenarioStimuli = [
 ];
 
 // Experiment trails
-// Study 5 -- causal judgment
+// Study 4a -- causal judgment
 const shuffledScenarios = jsPsych.randomization.shuffle(scenarioStimuli);
 const selectedScenarios = shuffledScenarios.slice(0, 12);
 
